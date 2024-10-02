@@ -38,7 +38,16 @@ public class QuizService
     }
   }
 
+  public List<Question> GetQuestions() => _questions;
 
+  public void Submitanswer(int questionIndex, int answerIndex)
+  {
+    if (_questions[questionIndex].CorrectAnswerIndex == answerIndex)
+    {
+      _score++;
+    }
+  }
 
+  public int Getscore() => _score;
 
 }
