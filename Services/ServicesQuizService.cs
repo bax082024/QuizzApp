@@ -36,6 +36,12 @@ public class QuizService
                 Text = "What is the largest ocean on Earth?",
                 Options = new List<string> { "Indian Ocean", "Pacific Ocean", "Atlantic Ocean", "Arctic Ocean" },
                 CorrectAnswerIndex = 1 // Correct answer is "Pacific Ocean"
+            },
+            new Question
+            {
+              Text = "What year did World War II end?",
+              Options = new List<string> {"1945", "1918", "1939", "1963"},
+              CorrectAnswerIndex = 0 // Correct answer is "1945"
             }
         };
     }
