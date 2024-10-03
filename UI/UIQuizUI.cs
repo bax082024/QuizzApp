@@ -41,7 +41,34 @@ public class QuizUI
     ShowFinalScore();
   }
 
-  
+  private void DisplayQuestion(Question question)
+  {
+    Console.WriteLine($"Question {_currentQuestionIndex + 1}: {question.Text}");
+    for (int i = 0; i < question.Options.Count; i++)
+    {
+      Console.WriteLine($"{i + 1}. {question.Options[i]}");
+    }
+
+  }
+
+  private int GetUserAnswer()
+  {
+    int answer = -1;
+    while (answer < 1 || answer > 4)
+    {
+      Console.Write("Select your answer (1 - 4):");
+      if (!int.TryParse(Console.ReadLine(), out answer))
+      {
+        Console.WriteLine("Invalid input. Please enter a number between 1 and 4 ");
+      }
+    }
+    return answer - 1;
+  }
+
+  private void ShowFinalScore()
+  {
+    Console.WriteLine($"Your final score is: {_quizService.Getscore()}");
+  }
 
 
 
