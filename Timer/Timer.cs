@@ -13,9 +13,9 @@ public class QuestionTimer
     IsTimeUp = false;
   }
 
-  public void TimerCallback(Object o)
+  public void StartTimer(Object o)
   {
-    _timer = new Timer(TimerCallback, null, 0, 1000);
+    _timer = new Timer(StartTimer, null, 0, 1000);
   }
 
   private void TimerCallback(Object o)

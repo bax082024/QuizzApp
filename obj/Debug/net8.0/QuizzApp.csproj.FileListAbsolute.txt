@@ -1,0 +1,15 @@
+C:\HjemmeKode\C-Sharp\C-Sharp\QuizzApp\obj\Debug\net8.0\QuizzApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\HjemmeKode\C-Sharp\C-Sharp\QuizzApp\obj\Debug\net8.0\QuizzApp.AssemblyInfoInputs.cache
+C:\HjemmeKode\C-Sharp\C-Sharp\QuizzApp\obj\Debug\net8.0\QuizzApp.AssemblyInfo.cs
+C:\HjemmeKode\C-Sharp\C-Sharp\QuizzApp\obj\Debug\net8.0\QuizzApp.csproj.CoreCompileInputs.cache
+C:\HjemmeKode\C-Sharp\C-Sharp\QuizzApp\obj\Debug\net8.0\QuizzApp.sourcelink.json
+C:\HjemmeKode\C-Sharp\C-Sharp\QuizzApp\bin\Debug\net8.0\QuizzApp.exe
+C:\HjemmeKode\C-Sharp\C-Sharp\QuizzApp\bin\Debug\net8.0\QuizzApp.deps.json
+C:\HjemmeKode\C-Sharp\C-Sharp\QuizzApp\bin\Debug\net8.0\QuizzApp.runtimeconfig.json
+C:\HjemmeKode\C-Sharp\C-Sharp\QuizzApp\bin\Debug\net8.0\QuizzApp.dll
+C:\HjemmeKode\C-Sharp\C-Sharp\QuizzApp\bin\Debug\net8.0\QuizzApp.pdb
+C:\HjemmeKode\C-Sharp\C-Sharp\QuizzApp\obj\Debug\net8.0\QuizzApp.dll
+C:\HjemmeKode\C-Sharp\C-Sharp\QuizzApp\obj\Debug\net8.0\refint\QuizzApp.dll
+C:\HjemmeKode\C-Sharp\C-Sharp\QuizzApp\obj\Debug\net8.0\QuizzApp.pdb
+C:\HjemmeKode\C-Sharp\C-Sharp\QuizzApp\obj\Debug\net8.0\QuizzApp.genruntimeconfig.cache
+C:\HjemmeKode\C-Sharp\C-Sharp\QuizzApp\obj\Debug\net8.0\ref\QuizzApp.dll
