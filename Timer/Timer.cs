@@ -13,7 +13,24 @@ public class QuestionTimer
     IsTimeUp = false;
   }
 
-  
+  public void TimerCallback(Object o)
+  {
+    _timer = new Timer(TimerCallback, null, 0, 1000);
+  }
 
+  private void TimerCallback(Object o)
+  {
+    _timelimit--;
+    if (_timelimit <= 0)
+    {
+      IsTimeUp = true;
+      _timer.Dispose();
+    }
+  }
 
+  public void StopTimer()
+  {
+    _timer.Dispose();
+    IsTimeUp = false;
+  }
 }
